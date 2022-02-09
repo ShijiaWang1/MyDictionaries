@@ -6,26 +6,23 @@ from random import random
 phonebook = {"Chris": "555−1111", "Katie": "555−2222", "Joanne": "555−3333"}
 """
 print()
-print('*****  start section 1 - print dictionary ********')
+print("*****  start section 1 - print dictionary ********")
 print()
 
+print(phonebook)
+print(type(phonebook))
 
+phone = phonebook["Chris"]
 
+print(phone)
 
+print(len(phonebook))
 
-print()
-print('*****  end section 1 ********')
-print()
-
-
-
-
-
-
-
+mydictionary = dict(m=8, n=9)
+print(mydictionary)
 
 print()
-print('*****  start section 2 - search dictionary ********')
+print("*****  end section 1 ********")
 print()
 
 
@@ -34,7 +31,20 @@ print()
 
 
 print()
-print('*****  end section 2 ********')
+print("*****  start section 2 - search dictionary ********")
+print()
+
+
+name = "Chris"
+
+if name in phonebook:
+    print(phonebook[name])
+else:
+    print(name, "is not in the phonebook")
+
+
+print()
+print("*****  end section 2 ********")
 print()
 
 
@@ -174,7 +184,7 @@ print("*****  end section 10 ********")
 print()
 
 
-"""
+
 import random
 
 print()
@@ -188,3 +198,4 @@ print(phone)
 print()
 print("*****  end section 11 ********")
 print()
+"""
